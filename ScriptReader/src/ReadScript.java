@@ -23,7 +23,7 @@ public class ReadScript {
 				System.out.println("--Scene Begins--");
 				
 				do{
-					System.out.print(sceneScanner.nextLine());
+					System.out.print(sceneScanner.next());
 			        if (readString.isEmpty()) {
 			        	if(counter < 1) {
 			        		System.out.print(sceneScanner.nextLine());
