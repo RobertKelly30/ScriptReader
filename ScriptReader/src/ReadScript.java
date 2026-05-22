@@ -26,7 +26,7 @@ public class ReadScript {
 					System.out.print(sceneScanner.nextLine());
 			        if (readString.isEmpty()) {
 			        	if(counter < 1) {
-			        		System.out.print(sceneScanner.next());
+			        		System.out.print(sceneScanner.nextLine());
 			        		counter++;
 			        	}else {
 			        		System.out.print(sceneScanner.nextLine());
